@@ -1,11 +1,11 @@
 proxies:
-- name: '@KAFING_2'
+- name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 181.214.99.162
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
@@ -51,69 +51,24 @@ proxies:
   type: hysteria2
 - alpn:
   - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_1|3.0MB/s
-  network: xhttp
-  port: 2087
-  server: v2.gafe-rezvan.ir
-  servername: sdcards.ir
+  client-fingerprint: firefox
+  name: 🇩🇪DE_1|2.2MB/s
+  network: tcp
+  port: 443
+  server: 203.23.179.151
+  servername: ddc-akn.astralweb.tech
   tls: true
   type: vless
   udp: true
-  uuid: ee25c4ce-2071-4ffd-a541-4e2615118d32
-  xhttp-opts:
-    host: sdcards.ir
-    mode: auto
-    path: /
-- name: 🇩🇪DE_2|2.1MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+- name: 🇩🇪DE_2|3.1MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
+  sni: de.catxstar.com
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_3|1.6MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_4|2.1MB/s
-  network: xhttp
-  port: '8443'
-  server: 162.159.38.119
-  servername: argentinavsspain.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: argentinavsspain.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: 🇩🇪DE_5|2.7MB/s
+- name: 🇩🇪DE_3|2.5MB/s
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -121,27 +76,17 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 🇩🇪DE_6|2.1MB/s
-  port: 54177
-  server: 5.83.129.90
+- name: 🇩🇪DE_4|1.9MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_7|2.6MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.114.133
-  type: ss
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: DE_speednode_0002
+  name: DE_speednode_0004
   network: ws
   port: 2053
   server: 51.89.23.94
