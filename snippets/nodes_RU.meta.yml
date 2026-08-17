@@ -14,3 +14,20 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_1|3.7MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: J3W60M3AtU5k97dW435MfETjHX-DtfFqNrRUNoj2MXE
+    short-id: '!!str a1b2c3d4'
+  server: 31.177.111.144
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8071f3cc-994f-4fe2-bb87-cdc79559cb56
+  xudp: true
