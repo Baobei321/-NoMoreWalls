@@ -69,11 +69,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_1|1.3MB/s
-  password: ea6cb13b-f556-4512-9f02-fb0a598766f4
-  port: 16833
-  server: umoso-eo669-zhse.clodom.com
-  skip-cert-verify: true
-  sni: hk5.clodom.top
-  type: anytls
-  udp: true
