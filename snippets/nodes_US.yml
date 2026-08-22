@@ -1,16 +1,37 @@
 proxies:
-- name: 美国|@ripaojiedian
-  network: tcp
+- name: 🇺🇸 美国|@ripaojiedian
   password: d5517dedef425597a1b9fdbaad99544e
   port: 34039
   server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 🇺🇸 美国2|@ripaojiedian
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 28051
+  server: 95.40.14.234
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 53001
+  server: 43.199.47.78
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 34039
+  server: 43.199.143.104
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 28051
+  port: 39024
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -18,38 +39,8 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 43.199.47.78
+  port: 39024
+  server: 43.199.155.17
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_3|2.3MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 156.243.83.240
-  skip-cert-verify: true
-  sni: 8373638-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/f-l@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇺🇸US_4|4.3MB/s
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  tls: false
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
