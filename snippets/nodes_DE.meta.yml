@@ -98,37 +98,15 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.2MB/s
+  name: 🇩🇪DE_1|3.0MB/s
   network: tcp
-  port: 2568
+  port: 757
   reality-opts:
-    public-key: P4Rhf1bJUHLv0QI7J4UkqFiUpzabUccvAbKSe7Z0BiM
-    short-id: '!!str dd55bfc8'
-  server: inbound.sled019fd6eb-369f.rfsconfig.com
-  servername: s0a3u.biliimg.com
+    public-key: TOEfmCDbdYjHFdzEAsMTMfXRB-k80zZ5uZV45g3SJRI
+    short-id: '!!str cd0cfab98411cbb7'
+  server: hk03.ccdn3.work
+  servername: i1.hdslb.com
   tls: true
   type: vless
   udp: true
-  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_3|4.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: e5gqbtu97umt992j
-  port: '9443'
-  server: 185.230.44.170
-  skip-cert-verify: false
-  sni: 185.230.44.170
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  name: 🇩🇪DE_4|2.9MB/s
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: '20022'
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
