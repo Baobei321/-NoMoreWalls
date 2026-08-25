@@ -1,20 +1,4 @@
 proxies:
-- name: 日本
-  password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
-  port: 8443
-  server: 185.39.31.117
-  skip-cert-verify: true
-  sni: grape-beer.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '日本 #1'
-  password: ef18d810-719c-4bf1-83c6-615d01f217eb
-  port: 443
-  server: jp.cryptoofarm.com
-  skip-cert-verify: true
-  sni: jp.cryptoofarm.com
-  tls: false
-  type: hysteria2
 - name: JP
   password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
   port: 32135
@@ -32,15 +16,22 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: 🇯🇵JP_1|1.2MB/s
+  name: 日本2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 日本3|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
+- name: 🇯🇵JP_1|2.8MB/s
+  password: 6519a715da174466
+  port: 101
+  server: jcnp178.pacemakere.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
