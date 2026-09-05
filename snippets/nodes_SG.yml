@@ -1,6 +1,5 @@
 proxies:
-- name: 新加坡3|@ripaojiedian
-  network: tcp
+- name: 🇸🇬 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 9149
   server: 95.40.28.75
