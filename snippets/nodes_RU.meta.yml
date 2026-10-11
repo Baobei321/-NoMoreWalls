@@ -9,11 +9,10 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺RU_1|3.0MB/s
+- client-fingerprint: qq
+  name: 🇷🇺RU_1|1.7MB/s
   network: xhttp
-  port: '8468'
+  port: 8468
   reality-opts:
     public-key: mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc
     short-id: '!!str 6ba85179e30d4fc2'
@@ -24,29 +23,36 @@ proxies:
   udp: true
   uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
   xhttp-opts:
+    host: ads.x5.ru
     mode: auto
     path: /xh
-  xudp: true
-- name: 🇷🇺RU_2|1.1MB/s
+- name: 🇷🇺RU_2|2.9MB/s
   port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: random
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ru-api
-  name: 🇷🇺RU_3|3.0MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-    short-id: '!!str '
-  server: 93.188.184.150
-  servername: ru-1-2.unturned-rust-dead.lol
+- alpn:
+  - http/1.1
+  - h2
+  client-fingerprint: firefox
+  name: 🇷🇺RU_3|3.2MB/s
+  network: xhttp
+  port: 2053
+  server: 78.159.246.85
+  servername: fitindoor.net
   tls: true
   type: vless
   udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
-  xudp: true
+  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
+  xhttp-opts:
+    host: fitindoor.net
+    mode: auto
+    path: /api/v1/upload
+    x-padding-bytes: 100-1000
+- name: 🇷🇺RU_4|2.5MB/s
+  port: 443
+  server: 178.219.43.226
+  skip-cert-verify: true
+  tls: true
+  type: http

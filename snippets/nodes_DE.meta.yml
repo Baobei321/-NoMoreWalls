@@ -19,42 +19,87 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|2.7MB/s
+- name: 🇩🇪191753 | ⚡️Telegram = t.me/S...
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.178
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: 🇩🇪DE_1|1.1MB/s
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|2.7MB/s
+- name: 🇩🇪DE_2|1.8MB/s
   password: None
   port: 9443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇩🇪DE_3|1.8MB/s
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.3MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: null
-- name: 🇩🇪DE_3|4.1MB/s
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 🇩🇪DE_5|1.3MB/s
+  network: ws
+  password: '!!str 123456'
+  port: '443'
+  server: 162.159.153.42
+  skip-cert-verify: false
+  sni: now-pages-sub-em4.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|2.3MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: V-wRiXvhBx01utmXJbrThJ_DE4tNJfK6mnzo9EB3fVA
+    short-id: '!!str '
+  server: 188.225.32.76
   tls: true
-  type: http
-- name: 🇩🇪DE_4|2.1MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 12e95f93-443c-0002-9a2a-5b318b9124cf
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|1.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
+    short-id: '!!str a9dc98a7dc87a7dc'
+  server: glazatushi.yandex-api.com
+  servername: glazatushi.yandex-api.com
   tls: true
-  type: http
-- name: 🇩🇪DE_5|3.0MB/s
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|2.3MB/s
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+  xudp: true
