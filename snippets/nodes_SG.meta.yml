@@ -37,31 +37,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|4.3MB/s
-  network: tcp
+- name: 🇸🇬SG_1|2.1MB/s
   port: 443
-  reality-opts:
-    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
-    short-id: '!!str 37c94ae25b69a93a'
-  server: sg1.oh-node.com
-  servername: sg-hyp-api.hoyoverse.com
+  server: 156.146.56.97
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
-- name: 🇸🇬SG_2|2.5MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.55.110
-  skip-cert-verify: true
   type: http
-  username: '1234'
-- name: 🇸🇬SG_3|4.0MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 54.255.133.243
+- name: 🇸🇬SG_2|1.4MB/s
+  password: '!!str 8888'
+  port: 1080
+  server: 47.236.168.243
   skip-cert-verify: true
+  type: socks5
+  username: '8888'
+- name: 🇸🇬SG_3|2.6MB/s
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
   type: http
-  username: '1234'
+  udp: true

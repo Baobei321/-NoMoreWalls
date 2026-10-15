@@ -6,3 +6,15 @@ proxies:
   sni: ees92.shhflow.xyz
   tls: false
   type: hysteria2
+- name: 🇪🇪EE_1|1.0MB/s
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇪EE_2|2.4MB/s
+  port: 443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  tls: true
+  type: http
