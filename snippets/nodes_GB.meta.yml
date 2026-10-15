@@ -1,25 +1,17 @@
 proxies:
-- name: 🇬🇧GB_1|1.4MB/s
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|2.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    short-id: '!!str 20'
+  server: uk2.oh-node.com
+  servername: www.bp.com
   tls: true
-  type: http
-- name: 🇬🇧GB_2|2.1MB/s
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|3.0MB/s
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|1.0MB/s
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+  xudp: true
