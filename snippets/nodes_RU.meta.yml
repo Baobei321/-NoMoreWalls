@@ -9,19 +9,20 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-    short-id: '!!str 111111'
-  server: 37.143.15.206
-  servername: 5post-gate.x5.ru
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇷🇺RU_1|2.1MB/s
+  network: xhttp
+  port: 2053
+  server: 78.159.246.179
+  servername: randomquaint.net
   tls: true
   type: vless
   udp: true
-  uuid: 4599572f-bcfa-461e-bc73-d80e1ea65aa6
-  xudp: true
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  xhttp-opts:
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
