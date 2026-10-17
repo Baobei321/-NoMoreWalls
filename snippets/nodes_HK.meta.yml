@@ -110,7 +110,14 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|2.2MB/s
+- name: 🇭🇰HK_1|2.9MB/s
+  password: ''
+  port: '10808'
+  server: 121.46.226.221
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇭🇰HK_2|1.2MB/s
   password: ''
   port: '3128'
   server: 119.28.24.235

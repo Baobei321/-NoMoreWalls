@@ -37,80 +37,31 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|2.9MB/s
-  network: ws
-  port: 8443
-  server: news.zoom.us
-  servername: u.srilankangrill.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-    path: /
-- client-fingerprint: unsafe
-  encryption: none
-  name: 🇸🇬SG_2|1.2MB/s
-  network: ws
-  port: '443'
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|2.2MB/s
-  network: ws
-  port: '8443'
-  server: 141.193.213.21
-  servername: u.srilankangrill.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇸🇬SG_4|3.4MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 54.255.133.243
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_5|3.2MB/s
+- name: 🇸🇬SG_1|4.2MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 54.169.52.51
+  server: 47.129.235.22
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_6|2.1MB/s
+- name: 🇸🇬SG_2|4.1MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 13.250.21.56
+  server: 52.221.234.145
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_7|1.8MB/s
+- name: 🇸🇬SG_3|4.2MB/s
   password: '!!str 1234'
   port: '2080'
   server: 13.212.14.88
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_4|1.3MB/s
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.214.213.66
   skip-cert-verify: true
   type: http
   username: '1234'
