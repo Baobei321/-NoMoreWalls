@@ -374,16 +374,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_2|3.3MB/s
-  network: tcp
-  port: '30829'
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|3.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 162.159.36.20
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: www.calmlunch.com
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /assignment
