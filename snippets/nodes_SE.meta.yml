@@ -19,17 +19,48 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|4.0MB/s
-  password: None
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: hls-vod.iJxGWWENB3HP4nTjN8IcrA.1790085537.2512.0x5000039ce83a2b8d.2ac8ad72028049619c2fb844a825a.ca.mp4.segment-20-v1-a1.ts
+  name: 🇸🇪SE_1|2.1MB/s
+  network: grpc
+  port: '443'
+  server: 87.242.117.59
+  servername: se1.my-cdn.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: c19ecc7f-8312-4d9d-90c9-1a997d82d3c5
+  xudp: true
+- name: 🇸🇪SE_2|1.6MB/s
   port: 443
-  server: 146.70.242.130
+  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇸🇪SE_2|1.4MB/s
+- name: 🇸🇪SE_3|1.8MB/s
   port: 443
-  server: 217.210.129.243
+  server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: awarecricketer
+  name: 🇸🇪SE_4|3.3MB/s
+  network: grpc
+  port: '23688'
+  reality-opts:
+    public-key: kbITklNKTdfvB6e3xy97pTV7gjl3Z3irv246oRZ5Gnk
+    short-id: '!!str f679b4f2'
+  server: ru6.my-cdn.org
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c19ecc7f-8312-4d9d-90c9-1a997d82d3c5
+  xudp: true

@@ -53,9 +53,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_1|2.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: 152.232.57.10
+  servername: api.videobereg.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
 - alterId: 2
   cipher: auto
-  name: 🇺🇸US_2|2.6MB/s
+  name: 🇺🇸US_2|3.3MB/s
   network: tcp
   port: '30829'
   server: v29.hdacd.com
@@ -66,16 +80,22 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
+- encryption: none
+  name: 🇺🇸US_3|1.1MB/s
+  network: ws
+  port: '8080'
+  server: usandvipnewpnlsz.mamadhpbot.ir
+  type: vless
   udp: true
-  username: 'null'
-- name: 🇺🇸US_4|3.2MB/s
+  uuid: 732ec777-bf4a-4fee-835a-25d6a8b58563
+  ws-opts:
+    headers:
+      Host: www.goo.gl
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /real
+  xudp: true
+- name: 🇺🇸US_4|2.3MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.210
@@ -83,126 +103,93 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_5|3.2MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_6|2.4MB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_7|2.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_8|2.4MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_9|2.6MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_10|3.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|3.4MB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_12|2.3MB/s
-  port: 443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|2.9MB/s
+- name: 🇺🇸US_5|1.6MB/s
   port: 443
   server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_14|1.8MB/s|K001-260618
-  password: ''
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_15|2.4MB/s
+- name: 🇺🇸US_6|2.1MB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_16|1.3MB/s
+- name: 🇺🇸US_7|2.1MB/s
   port: 443
   server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|2.9MB/s
-  port: 443
-  server: 66.64.100.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_18|3.4MB/s
-  port: 9443
-  server: 154.47.25.78
   skip-cert-verify: true
   tls: true
   type: http
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_19|2.3MB/s
+  name: 🇺🇸US_8|1.5MB/s
   network: ws
-  port: '443'
-  server: grimness-backlogs.cdn-content.com
-  servername: grimness-backlogs.cdn-content.com
+  port: 443
+  server: 104.17.147.22
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 85ab5d03-5d67-4a95-b1f5-3f1f62d64625
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: grimness-backlogs.cdn-content.com
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /ws
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: ''
+  xudp: true
+- name: 🇺🇸US_9|1.0MB/s
+  port: 443
+  server: 193.239.236.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|1.9MB/s
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|1.2MB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|1.1MB/s
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|2.0MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|1.7MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_15|3.5MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: api.videobereg.cc
+  servername: api.videobereg.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -219,6 +206,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0132

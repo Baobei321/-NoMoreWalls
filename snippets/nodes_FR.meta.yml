@@ -1,25 +1,63 @@
 proxies:
-- name: 🇫🇷FR_1|2.0MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|1.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: 189.74.117.22
+  servername: api.videolaguna.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: api.videolaguna.cc
+  servername: api.videolaguna.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  xudp: true
+- name: 🇫🇷FR_3|3.5MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_2|2.4MB/s
+- name: 🇫🇷FR_4|2.7MB/s
   port: 9443
   server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_3|2.8MB/s
+- name: 🇫🇷FR_5|3.2MB/s
   port: 443
-  server: 82.66.235.221
+  server: 82.65.162.76
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_4|4.5MB/s
-  port: 6103
-  server: 87.98.174.157
+- name: 🇫🇷FR_6|1.5MB/s
+  port: 8081
+  server: 31.32.19.111
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇫🇷FR_7|2.1MB/s
+  password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

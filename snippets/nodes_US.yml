@@ -47,7 +47,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 🇺🇸US_2|2.6MB/s
+  name: 🇺🇸US_2|3.3MB/s
   network: tcp
   port: '30829'
   server: v29.hdacd.com
