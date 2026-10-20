@@ -1,95 +1,32 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇬🇧GB_1|1009KB/s
-  network: ws
-  port: 2083
-  server: 134.122.111.219
-  servername: nvl-edge-dr-141026.pages.dev
+- name: 🇬🇧GB_1|2.5MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-  ws-opts:
-    headers:
-      Host: nvl-edge-dr-141026.pages.dev
-    path: /proxyip=ProxyIP.GB.CMLiussss.Net
-- name: 🇬🇧GB_2|4.2MB/s
+  type: http
+- name: 🇬🇧GB_2|2.4MB/s
   port: 443
   server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_9|2.7MB/s
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|2.5MB/s
-  password: None
+- name: 🇬🇧GB_3|3.1MB/s
   port: 9443
-  server: 37.120.233.34
+  server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_5|2.1MB/s
-  port: 443
-  server: 37.120.233.50
+- name: 🇬🇧GB_4|2.9MB/s
+  port: 9443
+  server: 84.17.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_6|1.7MB/s
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_7|1.6MB/s
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_8|1.6MB/s
-  password: ''
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇬🇧GB_10|2.9MB/s
+- name: 🇬🇧GB_5|3.9MB/s
   password: ''
   port: '1080'
   server: 57.129.182.181
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 🇬🇧GB_11|1.6MB/s
-  password: ''
-  port: '9000'
-  server: 149.248.213.249
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_12|2.8MB/s
-  network: ws
-  port: '2053'
-  server: 134.209.185.10
-  servername: nvl-edge-dr-141026.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-  ws-opts:
-    headers:
-      Host: nvl-edge-dr-141026.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /proxyip=ProxyIP.GB.CMLiussss.Net
-  xudp: true
