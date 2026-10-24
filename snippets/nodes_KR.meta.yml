@@ -24,7 +24,23 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 🇰🇷KR_1|1.5MB/s
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_1|3.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: GR_zPAgxF9PZ70Z9UpSmMlcd2STyoAC0fZTSHkTTCGE
+    short-id: '!!str ca193e889d958f81'
+  server: 158.247.241.102
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 583cc910-b57c-4dd0-a4a7-cea51a30b032
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷KR_2|2.3MB/s
   network: ws
   port: 443
   server: 158.247.222.168

@@ -27,13 +27,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: DE_speednode_0001
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: DK_speednode_0003
   port: 9002
   server: 158.173.154.1
@@ -41,48 +34,85 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.9MB/s
-  network: ws
-  port: '8443'
-  server: 185.208.172.85
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-  xudp: true
-- name: 🇩🇪DE_4|3.6MB/s
+- name: 🇩🇪DE_2|3.3MB/s
   port: 9002
   server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|2.4MB/s
+- name: 🇩🇪DE_3|2.3MB/s
   password: None
   port: 443
   server: 87.106.223.158
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_6|2.3MB/s
+- name: DE_speednode_0002
+  password: None
   port: 443
-  server: 149.36.50.129
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_5|2.6MB/s
+  password: None
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_6|1.8MB/s|R002-260618
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_7|2.9MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.2MB/s
+  password: None
+  port: 443
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: 🇩🇪DE_7|3.2MB/s
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_9|1.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: UZc4OlyX-cYmQh5FJtjzoSuVqtbiGJCNQGF_MN8CxA4
+    short-id: '!!str 748e4f563dd9bd02'
+  server: nl.shadowraze.co
+  servername: www.bmw.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
+  xudp: true
+- name: 🇩🇪DE_10|2.5MB/s
+  password: ''
+  port: '1080'
+  server: 89.191.226.64
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: 🇩🇪DE_11|2.8MB/s
   network: ws
-  port: '2083'
-  server: 64.188.71.236
+  port: '443'
+  server: 64.226.96.188
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -91,13 +121,11 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /
   xudp: true
-- name: DE_speednode_0002
-  password: None
+- name: DE_speednode_0001
   port: 443
   server: 213.109.163.119
   skip-cert-verify: true
