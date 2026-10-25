@@ -1,17 +1,4 @@
 proxies:
-- name: 🐙97@oneclickvpnkeys
-  password: 41edb44c8e
-  port: 11592
-  server: 103.88.243.142
-  sni: srv-17e124.21freedom.net
-  tls: false
-  type: hysteria2
-- name: 🐙99@oneclickvpnkeys
-  password: 41edb44c8e
-  port: 11592
-  server: srv-17e124.21freedom.net
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -22,48 +9,64 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: qq
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|3.9MB/s
+  name: 🇷🇺RU_1|1.1MB/s
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 193.160.140.117
-  servername: apple.com
+  server: 193.160.140.119
+  servername: ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 57c87188-1056-4bd5-92f8-c7ca1fd19147
-- client-fingerprint: edge
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|2.7MB/s
+  name: 🇷🇺RU_2|3.8MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 193.223.104.140
+  server: 147.45.46.178
+  servername: abuse.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|1.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 103.91.147.228
   servername: abuse.ozon.ru
   tls: true
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|2.3MB/s
+  name: 🇷🇺RU_4|1.0MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 193.160.141.8
+  server: 193.160.140.110
   servername: ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
   xudp: true
