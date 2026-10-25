@@ -27,29 +27,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪199747 | ⚡️Telegram = t.me/S...
-  password: mhsl
-  port: 14444
-  server: 88.99.213.222
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 🍄‍🟫41@oneclickvpnkeys
-  password: miaoge110
-  port: 51511
-  server: 5.45.100.100
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 🇩🇪199745 | ⚡️Telegram = t.me/S...
-  password: wdXYbPlYLa5yLB7LF2Ambo
-  port: 443
-  server: 46.225.10.16
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: DE_speednode_0007
   port: 443
   server: 213.109.163.119
@@ -64,3 +41,55 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 🇩🇪DE_3|3.0MB/s
+  password: None
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_4|1.2MB/s
+  password: None
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.0MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|3.6MB/s
+  password: None
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_7|2.6MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_8|1.7MB/s
+  network: tcp
+  port: 17232
+  reality-opts:
+    public-key: OYFQrEB_Zt7kvR5OtebA3tzKEUQ57C8Pg16MXUg1A1g
+    short-id: '!!str 67aec74e00f0e90f'
+  server: 77.239.102.129
+  servername: 77.239.102.129.sslip.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca

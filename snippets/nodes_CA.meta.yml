@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦CA_1|1.0MB/s
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: '!!str 8a9725533854a7e8'
+  server: 213.152.165.200
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28d7a636-fd0b-489e-bf99-baa5b1bf9f15
 - name: CA_speednode_0004
   password: None
   port: 443
@@ -7,3 +21,11 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 🇨🇦CA_3|3.0MB/s
+  password: None
+  port: 9443
+  server: 149.88.98.81
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

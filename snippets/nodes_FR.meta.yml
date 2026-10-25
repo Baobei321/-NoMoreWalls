@@ -1,40 +1,73 @@
 proxies:
-- name: 🍄‍🟫44@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.0MB/s
+  network: tcp
+  port: 2092
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: '!!str 716b7eba38125f3a'
+  server: 213.152.165.200
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 901cb432-3807-404a-9bb8-987814b000ca
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|3.0MB/s
+  network: tcp
+  port: 2092
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: '!!str 716b7eba38125f3a'
+  server: 213.152.165.203
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 901cb432-3807-404a-9bb8-987814b000ca
+- name: 🇫🇷FR_3|1.9MB/s
   port: 443
-  server: 13.36.234.11
+  server: 103.82.101.43
   skip-cert-verify: true
-  sni: vpn-fr-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 🍄‍🟫35@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 51.44.167.227
-  skip-cert-verify: true
-  sni: vpn-fr-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: FR_speednode_0012
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
   tls: true
   type: http
-  udp: true
-  username: 'null'
-- name: FR_speednode_0013
+- name: 🇫🇷FR_4|2.2MB/s
   port: 8090
-  server: 83.206.1.225
+  server: 82.96.128.175
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
 - name: FR_speednode_0014
   password: None
   port: 443
   server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: null
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_6|1.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 103.91.147.207
+  servername: ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
+  xudp: true
+- name: FR_speednode_0013
+  port: 8090
+  server: 83.206.1.225
   skip-cert-verify: true
   tls: true
   type: http
