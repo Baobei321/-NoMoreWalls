@@ -1,7 +1,14 @@
 proxies:
+- name: FR_speednode_0015
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|2.0MB/s
+  name: 🇫🇷FR_2|1.8MB/s
   network: tcp
   port: 2092
   reality-opts:
@@ -15,7 +22,7 @@ proxies:
   uuid: 901cb432-3807-404a-9bb8-987814b000ca
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_2|3.0MB/s
+  name: 🇫🇷FR_3|1.0MB/s
   network: tcp
   port: 2092
   reality-opts:
@@ -27,19 +34,43 @@ proxies:
   type: vless
   udp: true
   uuid: 901cb432-3807-404a-9bb8-987814b000ca
-- name: 🇫🇷FR_3|1.9MB/s
+- name: 🇫🇷FR_4|2.4MB/s
+  password: None
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_5|2.9MB/s
+  network: tcp
   port: 443
-  server: 103.82.101.43
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.151.71.167
+  servername: abuse.ozon.ru
+  skip-cert-verify: false
+  sni: abuse.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+- name: 🇫🇷FR_6|3.3MB/s
+  port: 443
+  server: 141.94.16.4
   skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
   tls: true
   type: http
-- name: 🇫🇷FR_4|2.2MB/s
-  port: 8090
-  server: 82.96.128.175
+- name: 🇫🇷FR_7|2.1MB/s|S001-260618
+  password: ''
+  port: 1081
+  server: 107.191.47.162
   skip-cert-verify: true
-  tls: true
-  type: http
+  sub_tag: S001-260618
+  type: socks5
+  udp: true
+  username: ''
 - name: FR_speednode_0014
   password: None
   port: 443
@@ -49,32 +80,24 @@ proxies:
   type: http
   udp: true
   username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_6|1.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 103.91.147.207
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
-  xudp: true
-- name: FR_speednode_0013
+- name: 🇫🇷FR_9|2.5MB/s
   port: 8090
-  server: 83.206.1.225
+  server: 80.124.109.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: FR_speednode_0012
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: FR_speednode_0015
-  port: 443
-  server: 82.65.162.76
+  username: 'null'
+- name: FR_speednode_0013
+  port: 8090
+  server: 83.206.1.225
   skip-cert-verify: true
   tls: true
   type: http

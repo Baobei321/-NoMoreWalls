@@ -7,16 +7,6 @@ proxies:
   sni: 140.238.213.114
   tls: false
   type: hysteria2
-- name: 🇨🇭192087 | ⚡️Telegram = t.me/v...
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-  password: capadm96216165
-  port: 443
-  server: 208.69.78.217
-  skip-cert-verify: true
-  sni: vpn.local
-  tls: false
-  type: hysteria2
 - name: CH_speednode_0005
   password: None
   port: 9443
@@ -25,6 +15,20 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 🇨🇭CH_2|2.0MB/s
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇭CH_3|2.7MB/s
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: CH_speednode_0006
   password: None
   port: 9443
