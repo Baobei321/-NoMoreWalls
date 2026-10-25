@@ -42,7 +42,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🇩🇪DE-🚀@VPNine1
+- name: 🇩🇪199745 | ⚡️Telegram = t.me/S...
   password: wdXYbPlYLa5yLB7LF2Ambo
   port: 443
   server: 46.225.10.16
@@ -50,83 +50,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: api
-  name: 🇩🇪DE_1|1.3MB/s
-  network: grpc
-  port: '2053'
-  reality-opts:
-    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: '!!str afee962d'
-  server: 193.111.248.80
-  servername: nl3.mycloud1.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-  xudp: true
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api
-  name: 🇩🇪DE_2|1.5MB/s
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: '!!str afee962d'
-  server: nl3.mycloud1.org
-  servername: nl3.mycloud1.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.0MB/s
-  network: tcp
-  port: '17232'
-  reality-opts:
-    public-key: OYFQrEB_Zt7kvR5OtebA3tzKEUQ57C8Pg16MXUg1A1g
-    short-id: '!!str 67aec74e00f0e90f'
-  server: 77.239.102.129
-  servername: 77.239.102.129.sslip.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: hls.n7ic-p6k1.UOa1suKMcTlfijXl7w.m3u8
-  name: 🇩🇪DE_4|1.4MB/s
-  network: grpc
-  port: '443'
-  server: 13.143.186.63
-  servername: k1qqse81xfbu.hat.onl
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: v1.segment.0K8-XZZ0rlAKn8bua_kT_XN4DhMIEkBSlndsx9DI7S1J.ts
-  name: 🇩🇪DE_5|1.8MB/s
-  network: grpc
-  port: '443'
-  server: 150.241.73.65
-  servername: nel50v6idoy1u.hat.onl
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc
-  xudp: true
 - name: DE_speednode_0007
   port: 443
   server: 213.109.163.119
