@@ -53,24 +53,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.7MB/s
-  port: 8443
-  server: 154.81.36.92
-  skip-cert-verify: true
-  tls: true
-  type: http
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_2|1.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
-  port: '4443'
-  server: 201.58.183.5
-  skip-cert-verify: false
-  sni: de4.shvpn.ru
-  type: hysteria2
-  up: ''
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117
