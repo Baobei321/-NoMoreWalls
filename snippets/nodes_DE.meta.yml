@@ -19,47 +19,27 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|3.1MB/s
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpcx2
+  name: 🇩🇪DE_1|3.8MB/s
+  network: grpc
+  port: 2095
+  reality-opts:
+    public-key: 3ds1sPK8MuZVr6IOAwjRx0h_2IZMZ2v_RzNGl3iYwno
+    short-id: '!!str e3a7297623f766ad'
+  server: 2.27.206.215
+  servername: ya.ru
   tls: true
-  type: http
-- name: 🇩🇪DE_2|1.9MB/s|R002-260618
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
+  type: vless
   udp: true
-- name: 🇩🇪DE_3|2.8MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|2.7MB/s
-  password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|2.1MB/s
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|2.5MB/s
-  network: raw
+  name: 🇩🇪DE_2|2.7MB/s
+  network: tcp
   port: '443'
   reality-opts:
     public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
@@ -71,9 +51,66 @@ proxies:
   udp: true
   uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
   xudp: true
+- name: 🇩🇪DE_3|1.7MB/s
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: DE_speednode_0004
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_5|1.4MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|1.6MB/s
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|1.4MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_8|3.6MB/s
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|2.0MB/s
+  password: None
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_10|2.7MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪DE_7|1.4MB/s
+  name: 🇩🇪DE_11|3.6MB/s
   network: xhttp
   port: '8443'
   reality-opts:
@@ -89,17 +126,3 @@ proxies:
     mode: stream-up
     path: /api/v1/stream
   xudp: true
-- name: 🇩🇪DE_8|1.6MB/s
-  password: ''
-  port: '3128'
-  server: 194.13.82.207
-  skip-cert-verify: true
-  type: http
-  username: ''
-- name: DE_speednode_0004
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
