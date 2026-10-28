@@ -9,23 +9,30 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.3MB/s
+- name: 🇩🇪DE_1|2.1MB/s
   password: None
   port: 443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_2|2.6MB/s
+- name: 🇩🇪DE_2|2.0MB/s
   password: None
   port: 443
-  server: 149.36.50.1
+  server: 79.76.126.155
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_3|2.4MB/s
+- name: 🇩🇪DE_3|2.6MB/s|R002-260618
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_4|1.1MB/s
   password: None
   port: 9443
   server: 87.249.132.97
@@ -33,49 +40,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|2.3MB/s
-  port: 443
-  server: 116.202.172.99
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|3.4MB/s
+- name: 🇩🇪DE_5|1.7MB/s
   password: None
   port: 443
-  server: 193.233.75.115
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_6|2.9MB/s
-  password: None
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|1.7MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_8|2.3MB/s
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|3.7MB/s
-  password: None
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
