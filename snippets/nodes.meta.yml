@@ -107,31 +107,10 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🇵🇱201491 | ⚡️Telegram = t.me/S...
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 🇫🇮201487 | ⚡️Telegram = t.me/S...
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  port: 4443
-  server: 31.76.8.20
-  sni: nl1.obxodvpn.us
-  tls: false
-  type: hysteria2
 - name: 🇪🇪201602 | ⚡️Telegram = t.me/S...
   password: 146d567c-6335-4e63-a8aa-7ec068642440
   port: 4443
   server: ee2.obxodvpn.us
-  skip-cert-verify: false
-  sni: nl1.obxodvpn.us
-  tls: false
-  type: hysteria2
-- name: 🇫🇮201470 | ⚡️Telegram = t.me/S...
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  port: 4443
-  server: fi1.obxodvpn.us
   skip-cert-verify: false
   sni: nl1.obxodvpn.us
   tls: false
@@ -154,12 +133,6 @@ proxies:
   server: 109.104.153.124
   skip-cert-verify: false
   sni: srv-0e5387.frd21.ru
-  tls: false
-  type: hysteria2
-- name: 🇫🇮201490 | ⚡️Telegram = t.me/S...
-  password: 46c16b68-2553-4e5e-8176-f63d6bf6ec0c
-  port: 443
-  server: fl.solomon-planet.ru
   tls: false
   type: hysteria2
 - name: '@Begoo_VPN ²⁹⁰'
@@ -202,6 +175,14 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: '@v2ray_configs_pools 🌍 ⚡️'
+  password: Hc9_NX924RE_Mn948rgrwiub_m93V84nll
+  port: 9443
+  server: 5.254.51.108
+  skip-cert-verify: false
+  sni: keyhop-voxility-at.dynuddns.com
+  tls: false
+  type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
@@ -210,16 +191,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: '@FarazV2ray'
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: 162.249.125.133
-  skip-cert-verify: false
-  sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: Telegram@vpnjey
@@ -328,16 +299,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇫🇷201543 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 4klsymrb2lsncw50
-  password: bqkkvfp9zf051rsb
-  port: 31340
-  server: 136.244.114.108
-  skip-cert-verify: false
-  sni: wryyjy31.easyiran.org
-  tls: false
-  type: hysteria2
 - name: '@V2rayng_mar_ket #1'
   obfs: salamander
   obfs-password: ec66908dbc46e6920143d9b684adf277
@@ -346,16 +307,6 @@ proxies:
   server: 155.94.134.183
   skip-cert-verify: false
   sni: srv-3fc7c9.21freedom.net
-  tls: false
-  type: hysteria2
-- name: 🇳🇱201505 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: ypvL8T4HFIBLoH8q
-  password: capadm54312235
-  port: 443
-  server: 51.15.16.68
-  skip-cert-verify: true
-  sni: vpn.local
   tls: false
   type: hysteria2
 - name: '@vmess_ir'
@@ -735,132 +686,34 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1002KB/s
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.7
+- name: 🇭🇰HK_1|1.1MB/s
+  password: 298c5651d3015d7cee9e8411eaa0bd72
+  port: 12010
+  server: 124.151.45.214
   skip-cert-verify: true
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  sni: apis.99912345.xyz
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇪🇪EE_1|3.0MB/s
-  network: tcp
-  port: '25895'
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: 'a73f0410d728c823'
-  server: 79.182.39.232
-  servername: www.samsung.com
+- name: 🇯🇵JP_1|1.2MB/s
+  port: 40583
+  server: 120.232.204.58
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-  xudp: true
-- name: 🇬🇧GB_1|2.6MB/s
+  type: http
+- name: 🇩🇪DE_1|2.4MB/s
   password: None
   port: 443
-  server: 185.164.138.156
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|1.6MB/s
-  port: 8443
-  server: 154.81.36.92
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_1|2.1MB/s
-  password: None
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇹IT_1|1.3MB/s
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_1|1.6MB/s
-  password: None
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.3MB/s
+- name: 🇺🇸US_1|1.4MB/s
   port: 443
   server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇿CZ_2|1.4MB/s
-  password: None
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇱PL_1|1.1MB/s
-  password: None
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|2.0MB/s
-  password: None
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.5MB/s
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.8MB/s
-  password: None
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_1|2.1MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_1|2.3MB/s
-  password: None
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_1|1.4MB/s
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇸RS_1|1.1MB/s
-  password: ''
-  port: 443
-  server: 146.70.221.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇩🇪DE_3|2.6MB/s|R002-260618
+- name: 🇩🇪DE_2|1.2MB/s|R002-260618
   password: None
   port: 443
   server: 149.36.50.129
@@ -869,109 +722,21 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇨🇭CH_1|1.8MB/s
+- name: 🇵🇱PL_1|1.8MB/s
   password: None
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_1|1.3MB/s
-  password: None
-  port: 9443
-  server: 135.136.1.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|1.1MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇰DK_1|1.5MB/s
   port: 443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇱AL_1|1.3MB/s
-  password: None
-  port: 9443
-  server: 31.171.155.210
+  server: 37.120.156.18
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇦🇹AT_1|2.4MB/s
+- name: 🇦🇹AT_1|1.0MB/s
   port: 443
   server: 146.70.244.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇵🇱PL_2|1005KB/s
-  password: None
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇨🇭CH_2|2.2MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇪🇸ES_1|1.3MB/s
-  password: None
-  port: 443
-  server: 130.195.250.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_5|2.6MB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|1.0MB/s
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|1.9MB/s
-  password: None
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_2|1.6MB/s
-  port: 443
-  server: 5.255.125.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1.7MB/s
-  port: 9443
-  server: 84.233.178.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|2.5MB/s
+- name: 🇬🇧GB_1|1.3MB/s
   password: None
   port: 9443
   server: 84.17.50.214
@@ -979,46 +744,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇷🇺RU_1|1.5MB/s
+- name: 🇭🇷HR_1|1.3MB/s
   password: None
-  port: 1446
-  server: 46.29.166.134
+  port: 443
+  server: 154.47.29.161
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇵🇹PT_1|2.2MB/s
-  password: ''
-  port: 443
-  server: 149.22.86.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇬🇧GB_5|2.1MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇪🇸ES_2|1.9MB/s
-  password: None
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|1.7MB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇪EE_2|1.8MB/s
+- name: 🇪🇪EE_1|1.8MB/s
   password: None
   port: 9443
   server: 95.153.31.66
@@ -1026,85 +760,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE_2|1.6MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇨🇦CA_1|1.2MB/s
-  password: None
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇳🇱NL_3|1.5MB/s
-  network: xhttp
-  port: '61374'
-  reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-    short-id: ''
-  server: nl-s-2.pythonmakemigreat.wiki
-  servername: nl-s-2.pythonmakemigreat.wiki
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xhttp-opts:
-    host: nl-s-1.pythonmakemigreat.wiki
-    mode: packet-up
-    path: /
-    reuse-settings:
-      max-connections: '3'
-    x-padding-bytes: 100-500
-  xudp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-nl-stream
-  name: 🇺🇸US_8|2.0MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: WJrP73M7px11xkHKhmEMKnaqUR-DPZnKbR2m_N3TwEE
-    short-id: '724d6cab'
-  server: 74.0.48.173
-  servername: nl-all.vless-bitrhythmia.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦CA_2|1.7MB/s
-  network: tcp
-  port: '32355'
-  server: ca001.zestapp778.com
-  servername: ca001.zestapp778.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇿CZ_3|1.4MB/s
-  network: raw
-  port: '2063'
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-    short-id: ''
-  server: 31.77.13.22
-  servername: rusbid.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  xudp: true
 - client-fingerprint: chrome
   name: AT_speednode_0001
   network: ws

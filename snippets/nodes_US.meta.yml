@@ -53,72 +53,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1002KB/s
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.7
-  skip-cert-verify: true
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
-  type: trojan
-  udp: true
-- name: 🇺🇸US_2|1.6MB/s
-  port: 8443
-  server: 154.81.36.92
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.3MB/s
+- name: 🇺🇸US_1|1.4MB/s
   port: 443
   server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|1.8MB/s
-  password: None
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|2.6MB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|1.0MB/s
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|1.9MB/s
-  password: None
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-nl-stream
-  name: 🇺🇸US_8|2.0MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: WJrP73M7px11xkHKhmEMKnaqUR-DPZnKbR2m_N3TwEE
-    short-id: '!!str 724d6cab'
-  server: 74.0.48.173
-  servername: nl-all.vless-bitrhythmia.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  xudp: true
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117
