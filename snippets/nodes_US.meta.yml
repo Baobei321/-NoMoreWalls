@@ -53,20 +53,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- auth: JDGu0PjxlEWSFJN
-  name: 🇺🇸US_1|3.3MB/s
-  password: JDGu0PjxlEWSFJN
-  port: 443
-  server: 129.153.97.46
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-- name: 🇺🇸US_2|1.4MB/s
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117
