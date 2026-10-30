@@ -37,18 +37,45 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|4.0MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|1.2MB/s
+  network: tcp
+  port: 2089
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: '!!str deccc6fac1ddb0ff'
+  server: 213.152.180.104
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 492e3bca-472f-406f-8bbb-2fdcc1560508
+- name: 🇸🇬SG_2|1.8MB/s
   password: '!!str 1234'
   port: 2080
-  server: 13.250.6.200
+  server: 52.221.234.145
   skip-cert-verify: true
   type: http
-  udp: true
   username: '1234'
-- name: 🇸🇬SG_2|3.7MB/s
+- name: 🇸🇬SG_3|1.7MB/s
+  port: 9443
+  server: 152.233.9.239
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇬SG_4|2.5MB/s
+  password: None
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇸🇬SG_5|2.8MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 54.151.160.36
+  server: 13.250.8.222
   skip-cert-verify: true
   type: http
   username: '1234'

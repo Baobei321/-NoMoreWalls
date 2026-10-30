@@ -110,3 +110,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|1.1MB/s
+  network: tcp
+  port: 2091
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: '!!str 08a4b1f473932632'
+  server: 213.152.180.104
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 847a6dbf-c3b7-40c1-841c-2047c6418842
+- name: 🇭🇰HK_2|5.2MB/s
+  port: 31343
+  server: 120.232.204.58
+  skip-cert-verify: true
+  tls: true
+  type: http
