@@ -9,35 +9,15 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|2.3MB/s
+- name: '@tootffarangi🍓'
+  obfs: salamander
+  obfs-password: 27b960aa5b199a215c3a84fd4818e5d2
+  password: 24266838d888d903594cc6e33910aeeb
   port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|1.5MB/s
-  password: None
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_3|1.2MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.3MB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  server: 2.28.226.197
+  sni: vpn.172908710.dpdns.org
+  tls: false
+  type: hysteria2
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
