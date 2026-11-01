@@ -1,20 +1,5 @@
 proxies:
-- name: 🇪🇪EE_1|3.2MB/s
-  password: None
-  port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇪🇪EE_2|3.2MB/s
-  password: None
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇪EE_3|1.5MB/s|K001-260618
+- name: 🇪🇪EE_1|1.6MB/s|K001-260618
   password: None
   port: 9443
   server: 192.159.101.174
@@ -23,4 +8,19 @@ proxies:
   tls: true
   type: http
   udp: true
-  username: ''
+- name: 🇪🇪EE_2|1.2MB/s
+  password: None
+  port: 9443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇪🇪EE_3|1.9MB/s
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

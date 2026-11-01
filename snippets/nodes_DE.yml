@@ -1,18 +1,10 @@
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_7|2.6MB/s
-  network: ws
-  port: '443'
-  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- client-fingerprint: chrome
+  name: 🇩🇪DE_8|1.4MB/s
+  password: happybirthdaydaniel
+  port: '25267'
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/fuckthewall
+  type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
