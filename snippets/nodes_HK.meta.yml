@@ -1,4 +1,14 @@
 proxies:
+- name: 'Channel id: @ConfigV2RayNG 🇭🇰'
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  port: 5010
+  server: 152.32.254.68
+  skip-cert-verify: false
+  sni: nas.aizhzo.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇭🇰HK01|@ripaojiedian
@@ -143,3 +153,10 @@ proxies:
   type: vless
   udp: true
   uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
+- name: 🇭🇰HK_1|1.7MB/s
+  password: None
+  port: 31343
+  server: 120.232.204.58
+  skip-cert-verify: true
+  tls: true
+  type: http

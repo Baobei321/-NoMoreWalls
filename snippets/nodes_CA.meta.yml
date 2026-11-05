@@ -159,3 +159,11 @@ proxies:
   type: vless
   udp: true
   uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
+- name: 🇨🇦CA_1|1.5MB/s
+  password: None
+  port: 9443
+  server: 23.169.224.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

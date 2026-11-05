@@ -15,7 +15,7 @@ proxies:
   sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 🇺🇸US-🚀@VPNine1
+- name: 🇺🇸206889 | ⚡️Telegram = t.me/L...
   obfs: salamander
   obfs-password: sbxbz19890604
   password: 41d4f8b3-2a45-4531-a33b-938e2eebb939
@@ -63,13 +63,6 @@ proxies:
   server: 172.245.6.155
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 🧿75@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 179.253.82.33
-  sni: fl3.nexfile.net
   tls: false
   type: hysteria2
 - name: 🧿92@oneclickvpnkeys
@@ -183,16 +176,52 @@ proxies:
   type: vless
   udp: true
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- name: US_speednode_0039
-  port: 8443
-  server: 44.248.167.117
+- name: US_speednode_0040
+  port: 443
+  server: 38.247.141.135
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: US_speednode_0040
+- name: 🇺🇸US_2|2.4MB/s
   port: 443
-  server: 38.247.141.135
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_3|4.1MB/s
+  password: None
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|1.0MB/s
+  password: None
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_5|1.6MB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_6|1.4MB/s
+  password: None
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_speednode_0039
+  port: 8443
+  server: 44.248.167.117
   skip-cert-verify: true
   tls: true
   type: http
