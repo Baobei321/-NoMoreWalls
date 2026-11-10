@@ -66,3 +66,13 @@ proxies:
   tls: false
   type: vless
   uuid: 206a8ff5-75a9-4191-8688-9e107d6f6c9d
+- fingerprint: ''
+  name: 🇭🇰HK_1|3.6MB/s
+  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  port: '43120'
+  server: dddz-1-x.473221.xyz
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: anytls
+  udp: true
+  username: 65ec84f5-0dd4-4582-8b4f-592e50b22116

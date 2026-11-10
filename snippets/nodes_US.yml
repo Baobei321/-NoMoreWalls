@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 🇺🇸US_10|1.5MB/s
+  network: tcp
+  password: a75243d0f5c2e31bd6c8c118b4f6442f81ad
+  port: '443'
+  server: 176.122.173.224
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true

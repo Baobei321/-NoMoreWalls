@@ -44,14 +44,74 @@ proxies:
   tls: false
   type: vless
   uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
-- name: 🇩🇪DE_1|2.8MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_1|2.4MB/s
+  network: ws
+  port: 443
+  server: n2.topingr.ir
+  servername: riga.zovip2.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5748db0-0031-4b9e-b43c-6c3986a9b5ed
+  ws-opts:
+    headers:
+      Host: riga.zovip2.ir
+    path: /api/v3/pulse
+- name: 🇩🇪DE_2|2.9MB/s
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
+  port: 443
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  skip-cert-verify: true
+  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  type: trojan
+- name: 🇩🇪DE_3|1.5MB/s
   password: None
-  port: 9002
-  server: 158.173.154.4
+  port: 443
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.3MB/s
+- name: 🇩🇪DE_10|3.3MB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_5|1003KB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|1.5MB/s
+  password: 'null'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇩🇪DE_7|2.5MB/s
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|1.3MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_9|3.1MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -59,60 +119,42 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_3|1.8MB/s
-  password: None
+- name: 🇩🇪DE_11|1.7MB/s
   port: 443
-  server: 87.106.223.158
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|1009KB/s
+- name: 🇩🇪DE_12|2.7MB/s
   password: None
   port: 443
-  server: 152.233.20.206
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_5|4.1MB/s
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_13|2.2MB/s
+  network: xhttp
+  port: '61374'
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+    short-id: '!!str '
+  server: 187.7.206.127
+  servername: fl-b2.golangwikito.cfd
   tls: true
-  type: http
-- name: 🇩🇪DE_6|2.1MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_7|3.4MB/s
-  password: 'null'
-  port: '9002'
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇩🇪DE_8|2.7MB/s
-  password: 'null'
-  port: '9002'
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇩🇪DE_9|3.4MB/s
-  password: 'null'
-  port: '443'
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xhttp-opts:
+    host: fl-b2.golangwikito.cfd
+    mode: packet-up
+    path: /
+    reuse-settings:
+      max-connections: '3'
+    x-padding-bytes: 100-500
+  xudp: true
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
