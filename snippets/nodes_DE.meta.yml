@@ -1,135 +1,56 @@
 proxies:
-- client-fingerprint: firefox
-  name: 🇩🇪 德国｜06｜BGP
-  network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: /asdasd
-- client-fingerprint: firefox
-  name: 🇩🇪 德国｜07｜BGP
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: /asdasd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 德国|@ripaojiedian
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
-    short-id: '!!str 83faf94a0e'
-  server: jp2static.xyy123.bid
-  servername: amazon.com
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 50.7.86.203
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: 🇩🇪DE_1|1.0MB/s
-  network: xhttp
-  port: 443
-  server: 188.72.103.4
-  servername: cdnapi.tronglob5.net
+  udp: true
+  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_9|1.0MB/s
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 50.7.86.214
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 0000be2c-fb3a-5bce-a7d7-2105d461915b
-  xhttp-opts:
-    host: cdnapi.tronglob5.net
-    mode: packet-up
-    no-grpc-header: true
-    path: /api/account/orders/
-    seq-key: line
-    seq-placement: cookie
-    session-key: cart_sid
-    session-placement: cookie
-    uplink-data-key: X-Client-Trace
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 80-900
-    x-padding-header: X-Ab-Variant
-    x-padding-key: ab
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-- name: 🇩🇪DE_2|2.2MB/s
+  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+- name: 🇩🇪DE_1|2.6MB/s
   password: None
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|2.4MB/s
+- name: 🇩🇪DE_2|1.6MB/s
   port: 443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_5|4.3MB/s
-  port: 443
-  server: 116.202.172.99
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|4.3MB/s
-  password: None
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|1.6MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_8|2.4MB/s
+- name: 🇩🇪DE_3|2.0MB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_9|2.1MB/s
-  password: None
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_10|2.2MB/s
+- name: 🇩🇪DE_7|2.1MB/s
   password: None
   port: 443
   server: 172.64.68.89
@@ -137,7 +58,23 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_11|1.9MB/s
+- name: 🇩🇪DE_5|1.5MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_6|1.3MB/s
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_8|1.1MB/s
   password: None
   port: 443
   server: 149.36.50.129
@@ -145,6 +82,23 @@ proxies:
   tls: true
   type: http
   username: null
+- client-fingerprint: chrome
+  name: 🇩🇪DE_11|1.6MB/s
+  network: ws
+  port: '443'
+  server: support.zoom.us.vltj.qzz.io
+  servername: support.zoom.us.vltj.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
+  ws-opts:
+    headers:
+      Host: support.zoom.us.vltj.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /id-pusat
+  xudp: true
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
