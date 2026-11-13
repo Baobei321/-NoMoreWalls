@@ -77,19 +77,20 @@ proxies:
     headers:
       Host: cdn-sg.skyvora.app
     path: '%2Faxzfrv47qcn'
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|2.3MB/s
-  network: tcp
-  port: '30322'
-  reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: '!!str 6a60e7e382d6'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
+- name: 🇸🇬SG_1|2.5MB/s
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇸🇬SG_2|1.2MB/s
+  password: None
+  port: '9090'
+  server: 128.199.254.13
+  skip-cert-verify: true
+  type: http
+  username: ''
