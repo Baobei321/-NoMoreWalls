@@ -1,16 +1,10 @@
 proxies:
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|3.3MB/s
-  port: 20894
-  reality-opts:
-    public-key: 7zJHKYqVaw2u6BYRA3E4zXJy4bn2uAhD7XeaWvOgiT0
-    short-id: '!!str e5b53356316d2a93'
-  server: xjpscsgbgwlxxnzrwxgg.jiedddym.com
-  servername: fastcdn.hoyoverse.com
+- name: 🇬🇧GB_1|1.5MB/s|R002-260618
+  port: 9443
+  server: 84.233.178.33
   skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
+  sub_tag: R002-260618
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: dee59b19-a32f-4d35-b1ee-3708e7d06efc
+  x-toolall-mihomo: true
