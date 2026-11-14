@@ -77,24 +77,13 @@ proxies:
     headers:
       Host: cdn-jp.skyvora.app
     path: '%2Fpmcxbjzdau6'
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇯🇵JP_1|3.5MB/s
-  network: xhttp
-  port: '443'
-  server: s2523.fuhuovps.xyz
-  servername: u695098u6b0550c8s2521.xxti.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: 6b0550c8s2521.xxti.top
-    path: 356257a80f246d77bb43c7d9d7f98d05
-  xudp: true
+- name: 🇯🇵JP_1|2.0MB/s
+  password: ''
+  port: '20000'
+  server: 43.163.219.10
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

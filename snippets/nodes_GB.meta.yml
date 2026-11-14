@@ -1,28 +1,16 @@
 proxies:
-- name: 🇬🇧GB_1|1.7MB/s|R002-260618
-  port: 443
-  server: 212.102.63.1
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|3.3MB/s
+  port: 20894
+  reality-opts:
+    public-key: 7zJHKYqVaw2u6BYRA3E4zXJy4bn2uAhD7XeaWvOgiT0
+    short-id: '!!str e5b53356316d2a93'
+  server: xjpscsgbgwlxxnzrwxgg.jiedddym.com
+  servername: fastcdn.hoyoverse.com
   skip-cert-verify: true
-  sub_tag: R002-260618
+  sni: fastcdn.hoyoverse.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  x-toolall-mihomo: true
-- name: 🇬🇧GB_2|2.1MB/s|R002-260618
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇬🇧GB_3|2.1MB/s|R002-260618
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
+  uuid: dee59b19-a32f-4d35-b1ee-3708e7d06efc
