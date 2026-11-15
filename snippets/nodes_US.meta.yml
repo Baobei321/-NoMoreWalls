@@ -15,6 +15,14 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: ' 🇺🇸 15@exclavevpn'
+  password: yO8pug5XmwkBXBAjleYIaVt
+  port: 443
+  server: 192.255.152.147
+  skip-cert-verify: true
+  sni: 192.255.152.147
+  tls: false
+  type: hysteria2
 - name: 美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
@@ -97,6 +105,24 @@ proxies:
   uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
   ws-opts:
     path: '%2Fws'
+- name: 🇺🇸US_1|3.8MB/s
+  port: 58764
+  server: 118.184.140.90
+  skip-cert-verify: true
+  tls: true
+  type: http
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_2|1.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: lvu_1f46c9c7e44bef3f9974936d87ee4f44_1f900674c11bcad65b09ef1f77502ea5:np2.1.z9PBCLlUfCKIMqYEuafOnTLQIjz8lGsSRofhhXAlFdc
+  port: '11443'
+  server: 89.125.42.149
+  skip-cert-verify: false
+  sni: n37.neproxy.net
+  type: hysteria2
+  up: ''
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

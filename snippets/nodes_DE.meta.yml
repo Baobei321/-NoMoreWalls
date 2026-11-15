@@ -1,38 +1,5 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|1.1MB/s
-  network: ws
-  port: '8443'
-  server: 104.17.70.206
-  servername: free.sahanwickramasinghe.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
-  ws-opts:
-    headers:
-      Host: free.sahanwickramasinghe.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇩🇪DE_2|2.8MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.0MB/s
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|2.5MB/s
+- name: 🇩🇪DE_1|2.0MB/s
   password: 'null'
   port: 443
   server: 172.64.68.89

@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- name: 🇭🇰HK_1|2.9MB/s
+  password: 3b985d60-e252-4935-8e03-06afeb1144c9
+  port: 18000
+  server: 112.49.65.212
+  servername: www.biliimg.com
+  skip-cert-verify: true
+  sni: www.biliimg.com
+  tls: true
+  type: trojan
