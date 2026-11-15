@@ -1,70 +1,45 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: '!!str 55986a94e2228791'
-  server: 50.7.86.203
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: '!!str 55986a94e2228791'
-  server: 50.7.86.214
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.1MB/s
-  network: xhttp
-  port: 443
-  server: 3.174.189.0
-  servername: d1b9pmaut2v26v.cloudfront.net
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|1.1MB/s
+  network: ws
+  port: '8443'
+  server: 104.17.70.206
+  servername: free.sahanwickramasinghe.com
   tls: true
   type: vless
   udp: true
-  uuid: 2e69b088-6ef3-417f-8247-125cf257fafd
-  xhttp-opts:
-    host: d1b9pmaut2v26v.cloudfront.net
-    mode: auto
-    path: /cf
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
+  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  ws-opts:
     headers:
-      Host:
-      - https://www.cloudflare.com
-    path:
-    - /
-  name: 🇩🇪DE_3|2.3MB/s
-  network: http
-  port: '58804'
-  server: 91.98.221.107
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aa3e4b64-c119-44be-b0f3-f88293705e37
+      Host: free.sahanwickramasinghe.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
   xudp: true
+- name: 🇩🇪DE_2|2.8MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|1.0MB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|2.5MB/s
+  password: 'null'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
@@ -72,33 +47,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: mlkem768x25519plus.native.0rtt.GlIc2LFlqBQ3itRnw8zoo3tfD7MSknWWmmLVDdr88jE
-  name: 🇩🇪DE_6|2.2MB/s
-  network: ws
-  port: 80
-  server: 104.18.43.144
-  tls: false
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: erosan.seminar-irani.ir
-    path: /MiMiTDL
-    v2ray-http-upgrade: true
-- name: 🇩🇪DE_7|3.8MB/s|R002-260618
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true

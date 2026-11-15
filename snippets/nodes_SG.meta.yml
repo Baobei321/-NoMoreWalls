@@ -8,127 +8,34 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 新加坡|@ripaojiedian
-  network: tcp
+  name: 🇸🇬 新加坡|@ripaojiedian
+  network: ws
   port: 443
   reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: '!!str deccc6fac1ddb0ff'
-  server: 67.159.49.30
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 新加坡2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: '!!str deccc6fac1ddb0ff'
-  server: 67.159.49.26
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 新加坡3|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: '!!str deccc6fac1ddb0ff'
-  server: 67.159.49.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-sg.skyvora.app
-  servername: cdn-sg.skyvora.app
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: '!!str 640c807d'
+  server: 139.162.20.241
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-    path: /axzfrv47qcn
+    path: /ws
 - client-fingerprint: chrome
   flow: ''
-  name: 新加坡4|@ripaojiedian
+  name: 新加坡|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-sg.skyvora.app
-  servername: cdn-sg.skyvora.app
-  tls: true
-  type: vless
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-  ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-    path: '%2Faxzfrv47qcn'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|1.0MB/s
-  network: tcp
-  port: '46957'
-  reality-opts:
-    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
-    short-id: '!!str 8f6683a234d3'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
-- name: 🇸🇬SG_2|2.4MB/s
-  password: Z5lvhmLqSc
-  port: 48994
-  server: matrix.phonicsindia.mobi
-  skip-cert-verify: true
-  sni: m.microsoft.com
-  type: trojan
-  udp: true
-- name: 🇸🇬SG_3|2.0MB/s
   port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_4|3.9MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: ffbf920:68447
-    mode: tls
-  port: '2377'
-  server: 18.141.181.229
-  type: ss
-  udp: true
-- name: 🇸🇬SG_5|2.3MB/s
-  password: None
-  port: '9090'
-  server: 152.42.170.187
-  skip-cert-verify: true
-  type: http
-  username: ''
+  reality-opts:
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: '!!str 640c807d'
+  server: 139.162.20.241
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+  ws-opts:
+    path: '%2Fws'
