@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_1|1.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+  port: '443'
+  server: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
+  type: hysteria2
+  up: ''

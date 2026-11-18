@@ -1,5 +1,5 @@
 proxies:
-- name: 🇩🇪DE_1|1.3MB/s
+- name: 🇩🇪DE_1|1.1MB/s
   password: 'null'
   port: 443
   server: 172.64.68.89
@@ -7,6 +7,13 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- name: 🇩🇪DE_2|1.3MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sni: 172.64.68.89
+  tls: true
+  type: http
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

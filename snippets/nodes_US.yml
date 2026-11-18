@@ -17,31 +17,3 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 🇺🇸US_3|1.1MB/s
-  network: http
-  port: 52402
-  server: 104.225.148.201
-  tls: false
-  type: vmess
-  uuid: 0542f509-4368-4ee3-be54-0557fed80f6b
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇺🇸US_5|3.1MB/s
-  network: http
-  port: 44441
-  server: 192.220.47.85
-  tls: false
-  type: vmess
-  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
-  x-toolall-mihomo: true
