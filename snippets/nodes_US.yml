@@ -1,19 +1,16 @@
 proxies:
-- name: 美国4|@ripaojiedian
-  network: tcp
-  password: MiTiVPN
-  port: 443
-  server: 167.82.76.27
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: 🇺🇸US_1|3.8MB/s
+  network: http
+  port: 52080
+  server: 107.174.133.115
   skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 美国5|@ripaojiedian
-  network: tcp
-  password: Mitivpn
-  port: 443
-  server: 151.101.110.219
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  udp: true
+  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd

@@ -1,20 +1,74 @@
 proxies:
-- name: 🇭🇰HK_1|1.3MB/s
-  password: ''
-  port: '3128'
-  server: 45.205.18.25
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: 11103
+  reality-opts:
+    public-key: 5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4
+    short-id: '!!str 9564e1a7a1cf8b3a'
+  server: 116.213.43.43
+  servername: www.apple.com
   skip-cert-verify: true
-  type: http
-  username: ''
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰HK_2|2.5MB/s
-  obfs: salamander
-  obfs-password: 9veAh9pTbrAfDwM1fIYI
-  password: hAUdd15a7YGHUSgiPOUz
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港2|@ripaojiedian
+  network: tcp
+  port: 11107
+  reality-opts:
+    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
+    short-id: '!!str e2ccd8eedcbee2ce'
+  server: 116.213.43.43
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港3|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NNBFlHVb2xbmURjkxXCZfqZNFmd5MprUtg5usEg_LRw
+    short-id: '!!str 58d234c8c6a009bc'
+  server: 47.243.230.253
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_15|2.2MB/s
+  network: ws
   port: '443'
-  server: 43.103.2.53
+  server: 104.20.63.254
+  servername: joeypg.ezbiz.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3d8e5c-794f-4c34-8222-59d3e99e35fe
+  ws-opts:
+    headers:
+      Host: joeypg.ezbiz.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- name: 🇭🇰HK_2|1.1MB/s
+  password: ''
+  port: '5001'
+  server: 219.78.223.199
   skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''
+  type: socks5
+  username: ''

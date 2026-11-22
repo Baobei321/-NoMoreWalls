@@ -7,88 +7,277 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 美国4|@ripaojiedian
-  network: tcp
-  password: MiTiVPN
-  port: 443
-  server: 167.82.76.27
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: 🇺🇸 美国2|@ripaojiedian
-  network: ws
+  flow: xtls-rprx-vision
+  name: 美国|@ripaojiedian
+  network: tcp
   port: 443
   reality-opts:
-    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
-    short-id: '!!str 60e39a7e'
-  server: 172.235.53.103
-  servername: itunes.apple.com
+    public-key: vQgrNIQTmbTIqtauDixzp2ePvd-aK_zlTctIDRPk3wQ
+    short-id: '!!str ce90a4459f024897'
+  server: 103.119.15.175
+  servername: www.amazon.com
   skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
-  ws-opts:
-    path: /ws
+  uuid: 89be587f-0e93-4c67-822e-98ad0a56c29e
 - client-fingerprint: chrome
-  name: 🇺🇸 美国3|@ripaojiedian
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
-    short-id: '!!str 357a37e1'
-  server: 172.236.239.126
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
-  ws-opts:
-    path: /ws
-- name: 美国5|@ripaojiedian
-  network: tcp
-  password: Mitivpn
-  port: 443
-  server: 151.101.110.219
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: ''
+  flow: xtls-rprx-vision
   name: 美国2|@ripaojiedian
-  network: ws
-  port: 443
+  network: tcp
+  port: 11105
   reality-opts:
-    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
-    short-id: '!!str 60e39a7e'
-  server: 172.235.53.103
-  servername: itunes.apple.com
+    public-key: ghxoNrFX488_gXprrfDt-03Lkxj3YFqS2q-DDw-m6yE
+    short-id: '!!str d9180a5730e950d2'
+  server: 116.213.43.43
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
-  ws-opts:
-    path: '%2Fws'
+  udp: true
+  uuid: 31d5b95e-aff2-4ffb-8160-b5ae941b46f6
 - client-fingerprint: chrome
-  flow: ''
+  flow: xtls-rprx-vision
   name: 美国3|@ripaojiedian
-  network: ws
+  network: tcp
   port: 443
   reality-opts:
-    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
-    short-id: '!!str 357a37e1'
-  server: 172.236.239.126
-  servername: itunes.apple.com
+    public-key: AMv7Xq2QzEDvAotwLRbqCk-WAxlQ7lxxYffMCvmNGhE
+    short-id: '!!str 5bcc25a95dcd415b'
+  server: 166.0.27.137
+  servername: www.samsung.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
+  udp: true
+  uuid: ad45be81-9ba1-4a41-9326-f6ceb63eb79f
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: 🇺🇸US_1|3.8MB/s
+  network: http
+  port: 52080
+  server: 107.174.133.115
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
+- name: 🇺🇸US_2|2.9MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: 🇺🇸US_3|2.6MB/s|K001-260618
+  password: None
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_4|2.2MB/s
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sni: 149.34.248.65
+  tls: true
+  type: http
+- name: 🇺🇸US_5|2.8MB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_6|2.5MB/s
+  password: ''
+  port: 9443
+  server: 152.233.50.145
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_7|1.6MB/s
+  network: ws
+  port: '2096'
+  server: 172.64.67.1
+  servername: cdn.lahjy.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5821f560-4156-4faf-80ec-9d798b128090
   ws-opts:
-    path: '%2Fws'
+    headers:
+      Host: cdn.lahjy.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_8|1.8MB/s
+  network: ws
+  port: '443'
+  server: 104.19.58.88
+  servername: cdn.lahjy.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5821f560-4156-4faf-80ec-9d798b128090
+  ws-opts:
+    headers:
+      Host: cdn.lahjy.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_9|3.3MB/s
+  network: ws
+  port: '2087'
+  server: 104.17.166.12
+  servername: cdn.lahjy.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5821f560-4156-4faf-80ec-9d798b128090
+  ws-opts:
+    headers:
+      Host: cdn.lahjy.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_10|2.5MB/s
+  network: ws
+  port: '443'
+  server: 104.17.99.49
+  servername: cdn.lahjy.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5821f560-4156-4faf-80ec-9d798b128090
+  ws-opts:
+    headers:
+      Host: cdn.lahjy.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_11|4.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: fanvpn.net
+  port: '443'
+  server: 104.233.178.178
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- client-fingerprint: random
+  name: 🇺🇸US_12|3.1MB/s
+  network: ws
+  port: '8443'
+  server: 104.18.14.19
+  servername: hk.zhaoqing.city
+  tls: true
+  type: vless
+  udp: true
+  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
+  ws-opts:
+    headers:
+      Host: hk.zhaoqing.city
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+  xudp: true
+- client-fingerprint: random
+  name: 🇺🇸US_13|1.9MB/s
+  network: ws
+  port: '8443'
+  server: 104.18.15.19
+  servername: hk.zhaoqing.city
+  tls: true
+  type: vless
+  udp: true
+  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
+  ws-opts:
+    headers:
+      Host: hk.zhaoqing.city
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_14|3.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 713142c9-ad09-4894-b35c-645423f3f6c9
+  port: '443'
+  server: 152.234.245.52
+  skip-cert-verify: false
+  sni: media.embrofree.org
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_15|2.0MB/s
+  network: ws
+  port: '8443'
+  server: www.visa.com
+  servername: hk.zhaoqing.city
+  tls: true
+  type: vless
+  udp: true
+  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
+  ws-opts:
+    headers:
+      Host: hk.zhaoqing.city
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_16|1.7MB/s
+  network: ws
+  port: '443'
+  server: 104.168.132.123
+  servername: cf-1rm.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
+  ws-opts:
+    headers:
+      Host: cf-1rm.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /
+  xudp: true
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117
